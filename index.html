@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+</head>
+
+<body>
+
+    <main>
+
+        <div id="title">
+            Przelicznik kryptowalut
+        </div>
+
+        <div id="all">
+
+
+            <div id="calc">
+
+                <div class="name" id="value">Wartość</div>
+                <div class="name" id="from">Z</div>
+                <div class="name" id="to">Na</div>
+
+                <input class="inp" id="val1" type="text">
+                <button id="result" class="btn">Oblicz</button>
+
+                <select name="crypto" class="crypto" id="first">
+               <optgroup label="Kryptowaluty">
+                <option value="btc">Bitcoin (BTC)</option>
+                </optgroup>
+                <optgroup label="Waluty tradycyjne">
+                <option value="pln" selected>Polski złoty (PLN)</option>
+                <option value="usd">Dolar amerykański (USD)</option>
+                </optgroup>
+                 </select>
+
+                <select name="crypto" class="crypto" id="second">
+                <optgroup label="Kryptowaluty">
+                <option value="btc" selected>Bitcoin (BTC)</option>
+                </optgroup>
+                <optgroup label="Waluty tradycyjne">
+                <option value="pln" >Polski złoty (PLN)</option>
+                <option value="usd">Dolar amerykański (USD)</option>
+                </optgroup>
+                 </select>
+
+            </div>
+
+            <div id="down">
+
+                <div class="setfordown" id="effect">
+                    <div id="temp">
+                        <div id="caption">Wynik</div>
+                        <div id="endresult">111111111111</div>
+                    </div>
+                </div>
+                <div class="setfordown" id="course"> </div>
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+
+
+
+    <script src="js/script.js"></script>
+    <script src="js/jquery-3.3.1.js"></script>
+</body>
+
+</html>

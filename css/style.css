@@ -1,0 +1,237 @@
+html {
+    background: url("../img/pw_maze_black.png");
+
+}
+
+
+
+body {
+
+
+    font-family: 'Cabin', sans-serif;
+
+
+}
+
+
+
+main {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 850px;
+    border-radius: 8px;
+
+}
+
+
+#title {
+    letter-spacing: 3px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    text-align: center;
+    color: black;
+    background-color: whitesmoke;
+    height: 100px;
+    font-size: 60px;
+    line-height: 100px;
+
+}
+
+#all {
+
+    background-color: #242222;
+    width: 100%;
+    height: 750px;
+
+
+}
+
+/* Gorna część głownej zawartości */
+
+#calc {
+    width: 100%;
+    height: 59%;
+    position: relative;
+    border-bottom: 7px solid black;
+
+}
+
+
+
+.inp {
+    font-size: 25px;
+    position: absolute;
+    display: block;
+    padding: 0;
+    border: none;
+    width: 150px;
+    height: 40px;
+    bottom: 50%;
+    left: 10%;
+    background-color: #353333;
+    color: white;
+    -webkit-transition: ease 2s;
+    -webkit-transition: ease 1s;
+    -webkit-transition: ease 0.5s;
+    transition: ease 0.5s;
+
+}
+
+.inp:focus {}
+
+.inp:hover {
+    -webkit-box-shadow: 0px 0px 23px 0px rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 23px 0px rgba(255, 255, 255, 1);
+}
+
+
+.crypto {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    display: block;
+    padding: 0;
+    border: none;
+    width: 270px;
+    height: 40px;
+    background-color: #353333;
+
+}
+
+.crypto:hover {
+    cursor: pointer;
+}
+
+.crypto:focus {
+
+    outline-style: none;
+
+
+
+}
+
+#first {
+
+    left: 35%;
+    bottom: 50%;
+
+}
+
+
+#second {
+
+    bottom: 50%;
+    left: 70%;
+
+}
+
+.btn {
+    background-color: #353333;
+    font-size: 25px;
+    position: absolute;
+    padding: 0;
+    width: 700px;
+    height: 40px;
+    bottom: 20%;
+    left: 50%;
+    margin-left: -350px;
+    color: white;
+    border: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline-style: none;
+
+}
+
+.name {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    display: block;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+#value {
+
+    bottom: 60%;
+    left: 13%;
+
+
+}
+
+#from {
+    bottom: 60%;
+    left: 45%;
+}
+
+#to {
+    bottom: 60%;
+    left: 80%;
+}
+
+/* Dolna część głownej zawartości */
+
+#down {
+
+    width: 100%;
+    height: 40%;
+    position: relative;
+}
+
+.setfordown {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+}
+
+#temp {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+#effect {
+
+    text-align: center;
+    color: white;
+}
+
+#caption {
+    position: absolute;
+    font-size: 40px;
+    top: 13%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+
+
+}
+
+#endresult {
+    background-color: #131111;
+    position: absolute;
+    border: 3px dotted black;
+    width: 500px;
+    height: 160px;
+    bottom: 50%;
+    left: 50%;
+    margin-left: -250px;
+    margin-bottom: -100px;
+    line-height: 160px;
+}
+
+#course {
+    left: 50%;
+
+}
